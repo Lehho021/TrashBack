@@ -44,9 +44,6 @@ header {
   top: 15px;
 }
 
-.content {
-  padding: 20px;
-}
 
 .jumbotron {
   width: 100%;
@@ -55,7 +52,7 @@ header {
   justify-content: center;
   align-items: center;
   background: url("../src/Assets/banner1.png") no-repeat center center;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .jumbotron img {

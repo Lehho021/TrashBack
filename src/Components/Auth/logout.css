@@ -57,10 +57,6 @@ header {
   object-fit: cover;
 }
 
-.content {
-  padding: 20px;
-}
-
 .jumbotron {
   width: 100%;
   height: 400px;
@@ -68,7 +64,7 @@ header {
   justify-content: center;
   align-items: center;
   background: url("../../Assets/banner1.png") no-repeat center center;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .jumbotron img {
@@ -76,13 +72,12 @@ header {
 }
 
 .content1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    justify-content: center;
+  }
 
 .menu-kategori {
   text-align: center;
@@ -107,10 +102,13 @@ header {
   object-fit: cover;
 }
 
+
+/*Footer Styling*/
 footer {
   background-color: #2f5150;
   padding: 20px;
-  margin-top: 10rem;
+  margin-top: 6rem;
+  width: 100%;
 }
 
 .footer-box {
@@ -121,38 +119,41 @@ footer {
   margin-left: 4rem;
 }
 
+.logo-footer img {
+  margin-top: -5rem;
+  margin-left: 4rem;
+}
+
 .about-box {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   width: 100%;
-  margin-top: 20px;
+  grid-template-columns: 500px 600px 500px;
+  gap: 80px;
+  color: #fff;
 }
 
 .about-us {
   font-size: 20px;
   font-weight: 500;
-  color: #fff;
-  text-align: justify;
-  margin-top: 4rem;
+  text-align: initial;
 }
 
 .left-box,
 .center-box,
 .right-box {
   flex-basis: 33.33%;
-  text-align: center;
-}
-
-.center-box h2 {
-  color: #fff;
-  margin-bottom: 2rem;
 }
 
 .list-link a {
   display: block;
   margin-bottom: 1rem;
   color: #fff;
+}
+.list-link {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+  gap: 20px;
 }
 
 .content {
@@ -186,37 +187,6 @@ footer {
   font-size: 16px;
 }
 
-.search-box,
-.register-box {
-  border: 1px solid #fff;
-  border-radius: 4px;
-  padding: 6px 10px;
-}
-
-.register-link {
-  color: #fff;
-  font-size: 16px;
-  text-decoration: none;
-}
-
-.register-link:hover {
-  text-decoration: underline;
-}
-
-.login-link {
-  display: inline-block;
-  border: 1px solid #fff;
-  border-radius: 4px;
-  padding: 6px 10px;
-  color: #fff;
-  font-size: 16px;
-  text-decoration: none;
-}
-
-.login-link:hover {
-  text-decoration: underline;
-}
-
 .box-row {
   display: flex;
   flex-wrap: wrap;
@@ -225,49 +195,20 @@ footer {
   margin-bottom: 20px;
 }
 
-.search-box {
+.social-media-box {
+  color: #fafaff;
+}
+
+.social-media a {
+  color: #fafaff;
+  font-size: 15px;
+}
+
+.social-media {
   display: flex;
-  align-items: center;
-  border: 1px solid #fff;
-  border-radius: 4px;
-  padding: 6px 10px;
-}
-
-.search-box .fas {
-  color: #fff;
-  margin-right: 10px;
-}
-
-.search-box input[type="text"] {
-  background-color: transparent;
-  border: none;
-  color: #fff;
-  font-size: 16px;
-}
-
-.register-box {
-  display: flex;
-  align-items: center;
-}
-
-.register-box .text {
-  color: #fff;
-}
-
-.register-link {
-  color: #fff;
-  text-decoration: none;
-  border: 1px solid #fff;
-  border-radius: 4px;
-  padding: 6px 10px;
-}
-
-.register-link:hover {
-  text-decoration: underline;
-}
-
-.navbar-responsive {
-  display: none;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
 }
 
 /* Responsive Styles */
@@ -295,7 +236,9 @@ footer {
 
   .content1 {
     flex-wrap: wrap;
-    gap: 5rem;
+    grid-template-columns: 200px 200px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .jumbotron {
@@ -320,7 +263,6 @@ footer {
   .center-box,
   .right-box {
     flex-basis: 100%;
-    text-align: center;
   }
 
   .list-link a {
@@ -331,10 +273,6 @@ footer {
     align-items: center;
   }
 
-  .search-box,
-  .register-box {
-    width: 100%;
-  }
 }
 
 @media (max-width: 576px) {
@@ -369,4 +307,32 @@ footer {
   .about-us {
     font-size: 16px;
   }
+
 }
+
+@media (max-width: 1200px) {
+  .footer-box {
+    margin-left: 0;
+  }
+
+  footer {
+    position: none;
+  }
+
+  .about-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .left-box,
+  .center-box,
+  .right-box {
+    flex-basis: 100%;
+  }
+
+  .list-link a {
+    margin-bottom: 0.5rem;
+  }
+}
+
