@@ -2,7 +2,7 @@
 
 <br />
 <p align="center">
-  <img src="./src/Assets/TrashBack-logo.png" alt="Logo" width="200" height="200">
+  <img src="./src/Assets/TrashBack-Logo.png" alt="Logo" width="200" height="200">
 </p>
 
 ## Authors
