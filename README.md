@@ -27,7 +27,7 @@ Nama Anggota Kelompok :
 
 ## Tema : Solusi Utilitas
 
-## Judul : TrashBack: Website Penyedia Artikel Makanan Diet
+## Judul : TrashBack
 
 ## Github Repo Link
 
