@@ -3,7 +3,6 @@
 <br />
 <p align="center">
   <img src="./src/Assets/logo-footer.png" alt="Logo" width="200" height="200">
-  <h3 align="center">TrashBack</h3>
 </p>
 
 ## Authors
@@ -36,7 +35,7 @@ https://github.com/C23-M4040-Project/project-TrashBack
 
 ## Slide Presentation Link:
 
-https://docs.google.com/presentation/d/1y-_G-KKz5d_Do_a0K5KN0BAn7QlBdLyVwFVjdDl4XW8/edit?usp=sharing
+https:
 
 # About TrashBack
 
