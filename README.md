@@ -61,7 +61,7 @@ Berikut Resources yang dibutuhkan dalam pengembangan Website Trashback :
   <li>API :</li>
     <ul>
       <li>Sumber API : Firebase</li>
-      <li>Sumber API : Li</li>
+      <li>Sumber API : Leafletjs</li>
     </ul>
   <li>Library :</li>
     <ul>
