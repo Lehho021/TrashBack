@@ -35,7 +35,7 @@ https://github.com/C23-M4040-Project/project-TrashBack
 
 ## Slide Presentation Link:
 
-https:
+https://www.canva.com/design/DAFmItWqPVY/7vboJgETJ5hNJcqFvRp2iQ/edit?utm_content=DAFmItWqPVY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 # About TrashBack
 
